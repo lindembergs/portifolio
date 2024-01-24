@@ -558,11 +558,11 @@ a {
   margin: 20px 0;
 }
 .bloco {
-  transition: 0.3s;
+  transition: 0.5s;
 }
 .bloco:hover {
-  transition: 0.3s;
   transform: scale(1.01);
+  text-decoration: underline #4a2cc5;
 }
 @media (max-width: 1080px) {
   .grade {
