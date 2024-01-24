@@ -500,6 +500,7 @@ a {
 .curso:hover {
   transition: 0.3s;
   transform: scale(1.1);
+  border: 1px solid #4a2cc5;
 }
 .tecno:hover {
   transition: 0.3s;
