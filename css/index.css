@@ -140,6 +140,7 @@ a {
 }
 .intro img {
   width: 350px;
+  border-radius: 50%;
 }
 .intro h2::after {
   display: inline-block;
