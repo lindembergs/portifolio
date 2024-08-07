@@ -14,7 +14,7 @@
 
 .projetos h2::after {
   display: block;
-  content: '';
+  content: "";
   width: 100px;
   height: 4px;
   background: #4a2cc5;
@@ -103,7 +103,7 @@
   justify-content: end;
 }
 
-.projeto-impar .codeBtns{
+.projeto-impar .codeBtns {
   grid-column: 1;
   justify-self: flex-end;
 }
@@ -163,7 +163,7 @@
   }
 
   .proj::after {
-    content: '→';
+    content: "→";
     font-weight: bold;
     position: absolute;
     top: -35px;
@@ -189,7 +189,8 @@
     align-self: center;
   }
 
-  .projeto-impar .codeBtns, .projetos-unidade .codeBtns{
+  .projeto-impar .codeBtns,
+  .projetos-unidade .codeBtns {
     grid-column: 1;
     justify-self: center;
   }
