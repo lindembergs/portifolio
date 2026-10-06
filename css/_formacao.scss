@@ -13,7 +13,7 @@
 
 .formacao h2 {
   font-size: 9rem;
-  color: black;
+  color: #525252;
   margin: 0;
 }
 
@@ -29,10 +29,26 @@
 
 .grade {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 40px;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+.certificacoes {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.certificacoes .bloco p {
+  color: #cccccc;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  margin-bottom: 10px;
+}
+
+.certificacoes .bloco p:last-child {
+  margin-bottom: 0;
 }
 
 .deco2 {
